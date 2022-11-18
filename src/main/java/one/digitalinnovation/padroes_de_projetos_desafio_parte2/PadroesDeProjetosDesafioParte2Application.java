@@ -18,7 +18,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @SpringBootApplication
 public class PadroesDeProjetosDesafioParte2Application {
-
+	/**
+	 * Api que manipula Endereços do Cliente de forma dinâmica pelo cep
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(PadroesDeProjetosDesafioParte2Application.class, args);
 	}

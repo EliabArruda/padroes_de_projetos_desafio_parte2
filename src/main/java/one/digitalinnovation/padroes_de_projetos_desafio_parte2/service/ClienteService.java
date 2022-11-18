@@ -12,6 +12,8 @@ public interface ClienteService {
 
     void salvar(Cliente cliente);
 
+    void salvarClienteComCep(Cliente cliente);
+
     void atualizar(Long id, Cliente cliente);
 
     void deletar(Long id);

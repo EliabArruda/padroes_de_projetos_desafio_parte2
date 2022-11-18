@@ -2,6 +2,7 @@ package one.digitalinnovation.padroes_de_projetos_desafio_parte2.controller;
 
 import one.digitalinnovation.padroes_de_projetos_desafio_parte2.model.Cliente;
 import one.digitalinnovation.padroes_de_projetos_desafio_parte2.service.ClienteService;
+import one.digitalinnovation.padroes_de_projetos_desafio_parte2.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,6 +11,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("clientes")
 public class ClienteController {
 
+    /**
+     * Singleton
+     */
     @Autowired
     private ClienteService clienteService;
 

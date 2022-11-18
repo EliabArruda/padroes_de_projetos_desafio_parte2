@@ -14,5 +14,5 @@ public class Cliente {
     private String nome;
 
     @ManyToOne
-    private Endereco cep;
+    private Endereco endereco;
 }
